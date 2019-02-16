@@ -1,7 +1,5 @@
 {
-  "index": "./src/index.js",
-  "main": "./dist/index.cjs.js",
-  "module": "./dist/index.esm.js",
+  "main": "./src/index.js",
   "name": "@stevefan1999/tslint-config",
   "version": "0.0.1",
   "dependencies": {
