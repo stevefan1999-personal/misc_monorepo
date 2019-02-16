@@ -8,7 +8,7 @@
     "src"
   ],
   "index": "./src/index.ts",
-  "name": "@stevefan1999/poi-mocha-webpack",
+  "name": "@stevefan1999/poi-plugin-mocha-webpack",
   "peerDependencies": {
     "poi": "^12.*.*"
   },
