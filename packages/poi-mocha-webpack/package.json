@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "fast-glob": "^2.2.6",
+    "mochapack": "^1.0.0"
+  },
+  "files": [
+    "src"
+  ],
+  "index": "./src/index.ts",
+  "name": "@stevefan1999/poi-mocha-webpack",
+  "peerDependencies": {
+    "poi": "^12.*.*"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "0.0.1"
+}
