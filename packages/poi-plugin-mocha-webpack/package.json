@@ -7,7 +7,7 @@
   "files": [
     "src"
   ],
-  "index": "./src/index.ts",
+  "index": "./src/index.js",
   "name": "@stevefan1999/poi-plugin-mocha-webpack",
   "peerDependencies": {
     "poi": "^12.*.*"
@@ -15,5 +15,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "0.0.2"
+  "version": "0.0.3"
 }
