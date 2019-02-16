@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "name": "@stevefan1999/misc_monorepo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevefan1999-personal/misc_monorepo.git"
+  },
+  "author": "stevefan1999",
+  "license": "ISC",
+  "devDependencies": {
+    "hygen": "^2.1.2",
+    "pkg-dir": "^3.0.0",
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3"
+  },
+  "scripts": {
+    "preinstall": "node check/preinstall.js"
+  }
+}
