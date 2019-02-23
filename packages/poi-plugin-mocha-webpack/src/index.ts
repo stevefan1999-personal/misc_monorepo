@@ -1,8 +1,9 @@
-const path = require('path')
+import path from 'path'
+import runMocha from './run-mocha'
 
-exports.name = 'mocha'
+export const name = 'mocha'
 
-exports.cli = api => {
+export const cli = api => {
   api.cli
     .command('test:mocha [...testFiles]', 'Run unit tests with Mocha')
     .usage('test:mocha [...testFiles] [options]')
@@ -49,7 +50,7 @@ exports.cli = api => {
         }
       })
 
-      return require('./run-mocha')(
+      return runMocha(
         api,
         testFiles.length === 0 ? ['**/*.{test,spec}.{js,ts}'] : testFiles,
         options

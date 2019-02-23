@@ -7,15 +7,17 @@
     "markdown-loader": "^2.0.2"
   },
   "files": [
-    "src"
+    "dist",
+    "assets"
   ],
-  "main": "./src/index.js",
+  "main": "./dist/index.js",
   "name": "@stevefan1999/poi-plugin-storybook",
   "peerDependencies": {
     "react": "*",
     "react-dom": "*",
     "vue": "*",
-    "vue-template-compiler": "*"
+    "vue-template-compiler": "*",
+    "tslib": "*"
   },
   "publishConfig": {
     "access": "public"

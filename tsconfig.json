@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@app/*": [
+        "./packages/*"
+      ]
+    }
+  },
+  "extends": "./tsconfig.base",
+  "files": [],
+  "references": [
+    {
+      "path": "./packages/poi-plugin-mocha-webpack"
+    },
+    {
+      "path": "./packages/poi-plugin-storybook"
+    },
+    {
+      "path": "./packages/tslint-config"
+    }
+  ]
+}

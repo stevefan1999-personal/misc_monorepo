@@ -1,6 +1,6 @@
-const path = require('path')
-const glob = require('fast-glob')
-const createMochaWebpack = require('mochapack')
+import path from 'path'
+import glob from 'fast-glob'
+import createMochaWebpack from 'mochapack'
 
 function exit (lazy, code) {
   if (lazy) {
@@ -12,7 +12,7 @@ function exit (lazy, code) {
   }
 }
 
-module.exports = async (api, testFiles, options) => {
+export default async (api, testFiles, options) => {
   const webpackChain = api.createWebpackChain()
 
   const webpackConfig = webpackChain.entryPoints

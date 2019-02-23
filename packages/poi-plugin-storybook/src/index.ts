@@ -1,12 +1,12 @@
-const path = require('path')
+import path from 'path'
 
-const managerTemplate = path.join(__dirname, 'manager.ejs')
-const iframeTemplate = path.join(__dirname, 'iframe.ejs')
+const managerTemplate = path.join(__dirname, '../assets/manager.ejs')
+const iframeTemplate = path.join(__dirname, '../assets/iframe.ejs')
 const useMarkdown = false
 
-exports.name = 'storybook'
+export const name = 'storybook'
 
-exports.apply = api => {
+export const apply = api => {
   api.config.pages = {
     'index': {
       template: managerTemplate,
