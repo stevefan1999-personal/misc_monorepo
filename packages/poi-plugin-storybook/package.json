@@ -1,10 +1,10 @@
 {
   "dependencies": {
-    "@storybook/addon-actions": "^3.2.13",
-    "@storybook/react": "^3.4.5",
-    "@storybook/vue": "^3.4.5",
+    "@storybook/addon-actions": "^5.1.9",
+    "@storybook/react": "^5.1.9",
+    "@storybook/vue": "^5.1.9",
     "html-loader": "^0.5.5",
-    "markdown-loader": "^2.0.2"
+    "markdown-loader": "^5.1.0"
   },
   "files": [
     "dist",

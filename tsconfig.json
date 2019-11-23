@@ -2,6 +2,22 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
+      "@stevefan1999/eslint-config-nuxt*": [
+        "./packages/eslint-config-nuxt/src*"
+      ],
+
+      "@stevefan1999/eslint-config-vue*": [
+        "./packages/eslint-config-vue/src*"
+      ],
+
+      "@stevefan1999/eslint-config-react*": [
+        "./packages/eslint-config-react/src*"
+      ],
+
+      "@stevefan1999/eslint-config*": [
+        "./packages/eslint-config/src*"
+      ],
+
       "@app/*": [
         "./packages/*"
       ]
@@ -10,6 +26,18 @@
   "extends": "./tsconfig.base",
   "files": [],
   "references": [
+    {
+      "path": "./packages/eslint-config-nuxt"
+    },
+    {
+      "path": "./packages/eslint-config-vue"
+    },
+    {
+      "path": "./packages/eslint-config-react"
+    },
+    {
+      "path": "./packages/eslint-config"
+    },
     {
       "path": "./packages/poi-plugin-mocha-webpack"
     },

@@ -1,23 +1,24 @@
 {
-  "private": true,
+  "author": "stevefan1999",
+  "devDependencies": {
+    "@stevefan1999/tslint-config": "^0.1.0",
+    "@types/node": "^12.6.8",
+    "hygen": "^4.0.7",
+    "pkg-dir": "^4.2.0",
+    "tslint": "^5.18.0",
+    "typescript": "^3.5.3"
+  },
+  "license": "ISC",
   "name": "@stevefan1999/misc_monorepo",
+  "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/stevefan1999-personal/misc_monorepo.git"
   },
-  "author": "stevefan1999",
-  "license": "ISC",
-  "devDependencies": {
-    "@stevefan1999/tslint-config": "^0.0.1",
-    "@types/node": "^11.9.5",
-    "hygen": "^2.1.2",
-    "pkg-dir": "^3.0.0",
-    "tslint": "^5.12.1",
-    "typescript": "^3.3.3"
-  },
   "scripts": {
-    "preinstall": "node check/preinstall.js",
-    "postinstall": "tsc -b .",
-    "clean": "pnpm recursive exec -- rm -rf dist/ node_modules/ shrinkwrap.yaml"
+    "build": "tsc -b .",
+    "clean": "pnpm recursive exec -- rm -rf dist/ node_modules/ shrinkwrap.yaml",
+    "postinstall": "npm run build",
+    "preinstall": "node check/preinstall.js"
   }
 }
