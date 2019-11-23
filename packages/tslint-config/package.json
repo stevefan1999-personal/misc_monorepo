@@ -8,5 +8,5 @@
   ],
   "main": "./dist/index.js",
   "name": "@stevefan1999/tslint-config",
-  "version": "0.1.0"
+  "version": "0.1.1"
 }
