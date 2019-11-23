@@ -1,12 +1,12 @@
 {
-  "files": [
-    "dist"
-  ],
-  "index": "./src/index.ts",
-  "main": "./dist/index.js",
-  "name": "@stevefan1999/utils",
-  "publishConfig": {
-    "access": "public"
-  },
-  "version": "0.0.2"
+	"files": [
+		"dist"
+	],
+	"index": "./src/index.ts",
+	"main": "./dist/index.js",
+	"name": "@stevefan1999/utils",
+	"publishConfig": {
+		"access": "public"
+	},
+	"version": "0.0.3"
 }
