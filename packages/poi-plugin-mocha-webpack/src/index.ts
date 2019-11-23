@@ -3,7 +3,7 @@ import runMocha from './run-mocha'
 
 export const name = 'mocha'
 
-export const cli = api => {
+export const cli = (api: any): any => {
   api.cli
     .command('test:mocha [...testFiles]', 'Run unit tests with Mocha')
     .usage('test:mocha [...testFiles] [options]')
@@ -32,7 +32,7 @@ export const cli = api => {
       for (const mod of options.require) {
         require(path.resolve(mod))
       }
-
+      
       api.hook('createWebpackChain', config => {
         if (options.coverage) {
           /* for general usage */
@@ -49,7 +49,7 @@ export const cli = api => {
             .enforce('post')
         }
       })
-
+      
       return runMocha(
         api,
         testFiles.length === 0 ? ['**/*.{test,spec}.{js,ts}'] : testFiles,

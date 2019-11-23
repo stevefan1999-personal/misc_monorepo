@@ -2,7 +2,7 @@ const pkgDir = require('pkg-dir')
 const path = require('path')
 const fs = require('fs')
 
-async function findMonoPackageRoot() {
+async function findMonoPackageRoot () {
   try {
     const root = await pkgDir(__dirname)
     const packages = path.resolve(root, 'packages')
@@ -13,8 +13,10 @@ async function findMonoPackageRoot() {
   return undefined
 }
 
-async function isMonoPackageExist(name) {
-  if (name.length < 1) return false
+async function isMonoPackageExist (name) {
+  if (name.length < 1) {
+    return false
+  }
 
   try {
     const packages = await findMonoPackageRoot()

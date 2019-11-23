@@ -4,10 +4,10 @@ module.exports = {
   prompt: ({ prompter, args }) =>
     prompter
       .prompt({
-        type: 'input',
-        name: 'packageName', 
         message: 'Name of the package?',
-        async validate(x) { 
+        name: 'packageName', 
+        type: 'input',
+        async validate (x) { 
           return x.length > 0
         }
       })

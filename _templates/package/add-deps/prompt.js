@@ -4,15 +4,15 @@ const {
 
 module.exports = [
   {
-    type: 'input',
-    name: 'srcPackage',
     message: 'Name of the source package?',
+    name: 'srcPackage',
+    type: 'input',
     validate: isMonoPackageExist
   },
   {
-    type: 'input',
-    name: 'incPackage',
     message: 'Name of the incremented package?',
+    name: 'incPackage',
+    type: 'input',
     validate: isMonoPackageExist
   }
 ]
