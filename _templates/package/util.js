@@ -1,13 +1,12 @@
 const pkgDir = require('pkg-dir')
 const path = require('path')
-const { stat } = require('fs')
-const { promisify } = require('util')
+const fs = require('fs')
 
 async function findMonoPackageRoot() {
   try {
     const root = await pkgDir(__dirname)
     const packages = path.resolve(root, 'packages')
-    const stats = await promisify(stat)(packages)
+    const stats = await fs.promises.stat(packages)
     return stats.isDirectory() ? packages : undefined
   } catch (err) {
   }
@@ -20,10 +19,11 @@ async function isMonoPackageExist(name) {
   try {
     const packages = await findMonoPackageRoot()
     if (packages) {
-      const package = path.resolve(packages, name)
-      const file = await promisify(stat)(package)
+      const packagePath = path.resolve(packages, name)
+      const file = await fs.promises.stat(packagePath)
       if (file.isDirectory()) {
-        const packageJson = await promisify(stat)(path.resolve(package, 'package.json'))
+        const packageJsonPath = path.resolve(packagePath, 'package.json')
+        const packageJson = await fs.promises.stat(packageJsonPath)
         return packageJson.isFile()
       }
     }

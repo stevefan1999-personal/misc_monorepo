@@ -4,10 +4,23 @@ unless_exists: true
 ---
 {
   "compilerOptions": {
-    "outDir": "lib/",
-    "rootDir": "src"
+    "baseUrl": "./src",
+    "outDir": "./dist",
+    "paths": {
+      "@/*": [
+        "./*"
+      ],
+      "~/*": [
+        "./*"
+      ]
+    },
+    "rootDir": "./src"
   },
+  "exclude": [
+    "node_modules"
+  ],
   "extends": "../../tsconfig.json",
-  "references": [
+  "include": [
+    "src/**/*"
   ]
 }

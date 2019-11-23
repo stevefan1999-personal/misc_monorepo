@@ -1,8 +1,14 @@
 const { isMonoPackageExist } = require('../util')
 
-module.exports = [{
-  type: 'input',
-  name: 'packageName',
-  message: 'Name of the package?',
-  validate: async x => x.length > 0 && !(await isMonoPackageExist(x))
-}]
+module.exports = {
+  prompt: ({ prompter, args }) =>
+    prompter
+      .prompt({
+        type: 'input',
+        name: 'packageName', 
+        message: 'Name of the package?',
+        async validate(x) { 
+          return x.length > 0
+        }
+      })
+}

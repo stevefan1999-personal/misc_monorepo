@@ -6,11 +6,10 @@ unless_exists: true
   "dependencies": {},
   "devDependencies": {},
   "files": [
-    "src"
+    "dist"
   ],
   "index": "./src/index.ts",
-  "main": "./dist/index.cjs.js",
-  "module": "./dist/index.esm.js",
+  "main": "./dist/index.js",
   "name": "@stevefan1999/<%= packageName %>",
   "publishConfig": {
     "access": "public"

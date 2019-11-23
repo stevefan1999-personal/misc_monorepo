@@ -1,7 +1,7 @@
 ---
 inject: true
 to: tsconfig.json
-skip_if: <%= packageName %>
+skip_if: \@stevefan1999/<%= packageName %>
 after: "paths"
 unless_exists: true
 ---
