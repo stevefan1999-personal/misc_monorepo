@@ -2,18 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d863f8ab-3993-48c2-bcf1-8892a4d85631" name="Default Changelist" comment="add: typescript setup">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config-typescript/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config-typescript/src/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config-typescript/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.eslint.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.npmrc" beforeDir="false" afterPath="$PROJECT_DIR$/.npmrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_templates/package/new/generate_packageJson.t" beforeDir="false" afterPath="$PROJECT_DIR$/_templates/package/new/generate_packageJson.t" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_templates/package/new/generate_tsconfigJson.t" beforeDir="false" afterPath="$PROJECT_DIR$/_templates/package/new/generate_tsconfigJson.t" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_templates/package/new/inject_packages_tsconfig.json.ejs.t" beforeDir="false" afterPath="$PROJECT_DIR$/_templates/package/new/inject_packages_tsconfig.json.ejs.t" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_templates/package/new/inject_tsconfig.json.ejs.t" beforeDir="false" afterPath="$PROJECT_DIR$/_templates/package/new/inject_tsconfig.json.ejs.t" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_templates/package/add-deps/prompt.js" beforeDir="false" afterPath="$PROJECT_DIR$/_templates/package/add-deps/prompt.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_templates/package/new/prompt.js" beforeDir="false" afterPath="$PROJECT_DIR$/_templates/package/new/prompt.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_templates/package/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/_templates/package/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/check/preinstall.js" beforeDir="false" afterPath="$PROJECT_DIR$/check/preinstall.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/poi-plugin-mocha-webpack/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/poi-plugin-mocha-webpack/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/poi-plugin-storybook/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/poi-plugin-storybook/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/eslint-config-nuxt/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-config-nuxt/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/eslint-config-nuxt/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-config-nuxt/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/eslint-config-react/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-config-react/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/eslint-config-react/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-config-react/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/eslint-config/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-config/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/eslint-config/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-config/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/poi-plugin-mocha-webpack/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/poi-plugin-mocha-webpack/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/poi-plugin-mocha-webpack/src/run-mocha.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/poi-plugin-mocha-webpack/src/run-mocha.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/poi-plugin-storybook/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/poi-plugin-storybook/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tslint-config/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tslint-config/src/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shrinkwrap.yaml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
@@ -22,16 +32,6 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>target</find>
-      <find>web</find>
-      <find>src</find>
-      <find>decla</find>
-      <find>source</find>
-      <find>dist</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,18 +45,26 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.linters.configure.manually.selectedeslint" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.tslint" value="$PROJECT_DIR$/node_modules/tslint" />
+    <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.saveactions" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="Q:\Documents\git\misc_monorepo\packages" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/packages/tslint-config" />
       <recent name="$PROJECT_DIR$/packages/poi-plugin-storybook" />
@@ -91,7 +99,9 @@
       <updated>1550911579354</updated>
       <workItem from="1550911592006" duration="4762000" />
       <workItem from="1550916441841" duration="3030000" />
-      <workItem from="1574495259894" duration="258000" />
+      <workItem from="1574495259894" duration="5066000" />
+      <workItem from="1574502499223" duration="1144000" />
+      <workItem from="1574503666246" duration="2634000" />
     </task>
     <task id="LOCAL-00001" summary="add: idea config">
       <created>1550916335092</created>
@@ -125,7 +135,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

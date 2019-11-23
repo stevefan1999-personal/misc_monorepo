@@ -2,24 +2,23 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@stevefan1999/eslint-config-nuxt*": [
-        "./packages/eslint-config-nuxt/src*"
+      "@app/*": [
+        "./packages/*"
       ],
-
-      "@stevefan1999/eslint-config-vue*": [
-        "./packages/eslint-config-vue/src*"
-      ],
-
-      "@stevefan1999/eslint-config-react*": [
-        "./packages/eslint-config-react/src*"
-      ],
-
       "@stevefan1999/eslint-config*": [
         "./packages/eslint-config/src*"
       ],
-
-      "@app/*": [
-        "./packages/*"
+      "@stevefan1999/eslint-config-nuxt*": [
+        "./packages/eslint-config-nuxt/src*"
+      ],
+      "@stevefan1999/eslint-config-react*": [
+        "./packages/eslint-config-react/src*"
+      ],
+      "@stevefan1999/eslint-config-typescript*": [
+        "./packages/eslint-config-typescript/src*"
+      ],
+      "@stevefan1999/eslint-config-vue*": [
+        "./packages/eslint-config-vue/src*"
       ]
     }
   },
@@ -34,6 +33,9 @@
     },
     {
       "path": "./packages/eslint-config-react"
+    },
+    {
+      "path": "./packages/eslint-config-typescript"
     },
     {
       "path": "./packages/eslint-config"
