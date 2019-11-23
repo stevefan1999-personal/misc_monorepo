@@ -9,9 +9,14 @@ export const mapKeys = (kv: Record<string, Array<string | [string, ...any[]]>>):
     (state1, [key1, value1]) =>
       value1.reduce(
         (state2, value2) => (
-          Array.isArray(value2)
-            ? { ...state2, [value2[0]]: value2.length > 1 ? [key1, ...value2.slice(1)] : key1 }
-            : { ...state2, [value2]: key1 }
+          {
+            ...state2,
+            ...(
+              Array.isArray(value2)
+                ? { [value2[0]]: value2.length > 1 ? [key1, ...value2.slice(1)] : key1 }
+                : { [value2]: key1 }
+            )
+          }
         ),
         state1
       ),
