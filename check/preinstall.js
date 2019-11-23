@@ -1,4 +1,4 @@
-if (process.env.npm_execpath.indexOf('pnpm') === -1) {
+if (!process.env.npm_execpath.includes('pnpm')) {
   console.error('You must use pnpm to install dependencies:')
   console.error('  $ pnpm install')
   console.error('To install pnpm, please install it from npm globally')

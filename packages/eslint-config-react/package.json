@@ -1,8 +1,4 @@
 {
-  "dependencies": {
-    "eslint-plugin-react": "^7.16.0",
-    "eslint-plugin-react-hooks": "^2.3.0"
-  },
   "files": [
     "dist"
   ],
@@ -10,7 +6,9 @@
   "main": "./dist/index.js",
   "name": "@stevefan1999/eslint-config-react",
   "peerDependencies": {
-    "eslint": "*"
+    "eslint": "*",
+    "eslint-plugin-react": "*",
+    "eslint-plugin-react-hooks": "*"
   },
   "publishConfig": {
     "access": "public"

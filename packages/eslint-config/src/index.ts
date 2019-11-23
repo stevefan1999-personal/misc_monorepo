@@ -6,103 +6,33 @@ module.exports = {
   },
   extends: [
     'eslint:recommended',
-    'plugin:node/recommended',
-    'plugin:@typescript-eslint/recommended',
-    'plugin:@typescript-eslint/eslint-recommended'
+    'plugin:node/recommended'
   ],
-  parserOptions: {
-    ecmaVersion: 2018,
-    parser: '@typescript-eslint/parser',
-    sourceType: 'module'
-  },
   plugins: [
-    '@typescript-eslint',
-    '@typescript-eslint/tslint',
     'sort-keys-fix'
   ],
   rules: {
-    '@typescript-eslint/await-thenable': 'error',
-    '@typescript-eslint/consistent-type-definitions': [
+    'arrow-body-style': [
       'error',
-      'interface'
+      'as-needed'
     ],
-    '@typescript-eslint/explicit-function-return-type': [
+    'curly': [
       'error',
-      {
-        'allowExpressions': true,
-        'allowHigherOrderFunctions': true,
-        'allowTypedFunctionExpressions': true
-      }
+      'multi-line'
     ],
-    '@typescript-eslint/generic-type-naming': 'error',
-    '@typescript-eslint/indent': [
+    'dot-notation': [
       'error',
-      2
+      { allowKeywords: false }
     ],
-    '@typescript-eslint/interface-name-prefix': 'off',
-    '@typescript-eslint/member-delimiter-style': [
-      'error',
-      {
-        'multiline': {
-          'delimiter': 'none',
-          'requireLast': true
-        },
-        'overrides': {
-          'interface': {
-            'multiline': {
-              'delimiter': 'none',
-              'requireLast': true
-            }
-          }
-        },
-        'singleline': {
-          'delimiter': 'comma',
-          'requireLast': false
-        }
-      }
-    ],
-    '@typescript-eslint/no-explicit-any': 'off',
-    '@typescript-eslint/no-floating-promises': 'error',
-    '@typescript-eslint/no-non-null-assertion': 'off',
-    '@typescript-eslint/no-unnecessary-qualifier': 'error',
-    '@typescript-eslint/no-unnecessary-type-assertion': 'error',
-    '@typescript-eslint/no-unused-vars': 'off',
-    '@typescript-eslint/no-use-before-define': 'off',
-    '@typescript-eslint/no-var-requires': 'off',
-    '@typescript-eslint/prefer-for-of': 'error',
-    '@typescript-eslint/prefer-includes': 'error',
-    '@typescript-eslint/promise-function-async': [
-      'error',
-      {
-        'allowAny': true,
-        'allowedPromiseNames': [
-          'Thenable'
-        ],
-        'checkArrowFunctions': true,
-        'checkFunctionDeclarations': true,
-        'checkFunctionExpressions': true,
-        'checkMethodDeclarations': true
-      }
-    ],
-    '@typescript-eslint/semi': [
-      'error',
-      'never'
-    ],
-    '@typescript-eslint/tslint/config': [
-      'warn',
-      {
-        'lintFile': './tslint.json'
-      }
-    ],
-    '@typescript-eslint/unbound-method': [
-      'error',
-      {
-        'ignoreStatic': true
-      }
-    ],
+    'guard-for-in': 'error',
+    'linebreak-style': 'off',
     'no-duplicate-imports': 'error',
+    'no-sequences': 'error',
+    'no-template-curly-in-string': 'error',
     'no-trailing-spaces': 'off',
+    'no-undef-init': 'error',
     'no-unsafe-finally': 'error',
+    'no-unused-expressions': 'off',
     'no-unused-vars': 'off',
     'node/exports-style': [
       'error',
@@ -110,23 +40,37 @@ module.exports = {
     ],
     'node/no-unpublished-require': 'off',
     'node/no-unsupported-features/es-syntax': 'off',
+    'object-shorthand': 'error',
+    'one-var': ['error', 'never'],
+    'prefer-const': 'error',
+    'prefer-object-spread': 'error',
     'prefer-template': 'error',
+    'quote-props': ['error', 'consistent-as-needed'],
     'quotes': [
       2,
       'single',
       {
-        'avoidEscape': true
+        avoidEscape: true
       }
     ],
     'semi': 'off',
     'sort-imports': [
       'error',
       {
-        'ignoreCase': true,
-        'ignoreDeclarationSort': true,
-        'ignoreMemberSort': false
+        ignoreCase: true,
+        ignoreDeclarationSort: true,
+        ignoreMemberSort: false
       }
     ],
-    'sort-keys-fix/sort-keys-fix': 'error'
+    'sort-keys-fix/sort-keys-fix': 'error',
+    'space-before-function-paren': [
+      'error',
+      {
+        anonymous: 'always',
+        asyncArrow: 'always',
+        named: 'always'
+      }
+    ],
+    'yoda': 'error'
   }
 }

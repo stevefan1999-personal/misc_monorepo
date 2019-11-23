@@ -1,8 +1,4 @@
 {
-  "dependencies": {
-    "@nuxtjs/eslint-config": "^1.1.2",
-    "eslint-plugin-nuxt": "^0.5.0"
-  },
   "files": [
     "dist"
   ],
@@ -10,8 +6,10 @@
   "main": "./dist/index.js",
   "name": "@stevefan1999/eslint-config-nuxt",
   "peerDependencies": {
+    "@nuxtjs/eslint-config": "*",
     "@nuxtjs/eslint-module": "*",
-    "eslint": "*"
+    "eslint": "*",
+    "eslint-plugin-nuxt": "*"
   },
   "publishConfig": {
     "access": "public"

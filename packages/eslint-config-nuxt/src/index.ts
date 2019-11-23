@@ -1,9 +1,7 @@
 module.exports = {
-    extends: [
-      '@nuxtjs',
-      'plugin:nuxt/recommended'
-    ],
-    rules: {}
-  }
-  
-  
+  extends: [
+    '@nuxtjs',
+    'plugin:nuxt/recommended'
+  ],
+  rules: {}
+}
