@@ -24,13 +24,14 @@ export const rules = {
     'ignore-same-line'
   ],
   'forin': true,
-  'no-trailing-whitespace': false,
+  'linebreak-style': false,
   'member-access': [
     true,
     'check-accessor',
     'check-constructor',
     'check-parameter-property'
   ],
+  'no-trailing-whitespace': false,
   'object-literal-shorthand': true,
   'one-variable-per-declaration': [
     true,
