@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d863f8ab-3993-48c2-bcf1-8892a4d85631" name="Default Changelist" comment="add: typescript setup">
-      <change afterPath="$PROJECT_DIR$/packages/eslint-config-typescript/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/eslint-config-typescript/src/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/eslint-config-typescript/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.eslint.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_templates/package/add-deps/prompt.js" beforeDir="false" afterPath="$PROJECT_DIR$/_templates/package/add-deps/prompt.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_templates/package/new/prompt.js" beforeDir="false" afterPath="$PROJECT_DIR$/_templates/package/new/prompt.js" afterDir="false" />
@@ -24,8 +19,6 @@
       <change beforePath="$PROJECT_DIR$/packages/poi-plugin-mocha-webpack/src/run-mocha.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/poi-plugin-mocha-webpack/src/run-mocha.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/poi-plugin-storybook/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/poi-plugin-storybook/src/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/tslint-config/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tslint-config/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shrinkwrap.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +94,7 @@
       <workItem from="1550916441841" duration="3030000" />
       <workItem from="1574495259894" duration="5066000" />
       <workItem from="1574502499223" duration="1144000" />
-      <workItem from="1574503666246" duration="2634000" />
+      <workItem from="1574503666246" duration="2748000" />
     </task>
     <task id="LOCAL-00001" summary="add: idea config">
       <created>1550916335092</created>
