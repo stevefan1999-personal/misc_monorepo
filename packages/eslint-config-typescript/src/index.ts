@@ -18,6 +18,7 @@ module.exports = {
         '@typescript-eslint/tslint'
       ],
       rules: {
+        indent: 'off',
         ...namespaced('@typescript-eslint')({
           ...mapKeys({
             error: [
