@@ -1,4 +1,7 @@
 {
+  "dependencies": {
+    "@stevefan1999/utils": "workspace:^0.0.2"
+  },
   "files": [
     "dist"
   ],

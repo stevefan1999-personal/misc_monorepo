@@ -19,12 +19,18 @@
       ],
       "@stevefan1999/eslint-config-vue*": [
         "./packages/eslint-config-vue/src*"
+      ],
+      "@stevefan1999/utils*": [
+        "./packages/utils/src*"
       ]
     }
   },
   "extends": "./tsconfig.base",
   "files": [],
   "references": [
+    {
+      "path": "./packages/utils"
+    },
     {
       "path": "./packages/eslint-config-nuxt"
     },
