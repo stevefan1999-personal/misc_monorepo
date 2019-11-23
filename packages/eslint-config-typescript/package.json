@@ -1,6 +1,9 @@
 {
   "dependencies": {
-    "@stevefan1999/utils": "workspace:^0.0.3"
+    "@stevefan1999/utils": "workspace:^0.0.3",
+    "@typescript-eslint/eslint-plugin": "^2.8.0",
+    "@typescript-eslint/eslint-plugin-tslint": "^2.8.0",
+    "@typescript-eslint/parser": "^2.8.0"
   },
   "files": [
     "dist"
@@ -9,13 +12,10 @@
   "main": "./dist/index.js",
   "name": "@stevefan1999/eslint-config-typescript",
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "*",
-    "@typescript-eslint/eslint-plugin-tslint": "*",
-    "@typescript-eslint/parser": "*",
     "eslint": "*"
   },
   "publishConfig": {
     "access": "public"
   },
-  "version": "0.1.2"
+  "version": "0.1.3"
 }

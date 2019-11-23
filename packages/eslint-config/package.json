@@ -1,6 +1,12 @@
 {
   "dependencies": {
-    "@stevefan1999/utils": "workspace:^0.0.3"
+    "@stevefan1999/utils": "workspace:^0.0.3",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-sort-keys-fix": "^1.1.0",
+    "eslint-plugin-standard": "^4.0.1"
   },
   "files": [
     "dist"
@@ -9,16 +15,10 @@
   "main": "./dist/index.js",
   "name": "@stevefan1999/eslint-config",
   "peerDependencies": {
-    "eslint": "*",
-    "eslint-config-standard": "*",
-    "eslint-plugin-import": "*",
-    "eslint-plugin-node": "*",
-    "eslint-plugin-promise": "*",
-    "eslint-plugin-sort-keys-fix": "*",
-    "eslint-plugin-standard": "*"
+    "eslint": "*"
   },
   "publishConfig": {
     "access": "public"
   },
-  "version": "0.1.2"
+  "version": "0.1.3"
 }
