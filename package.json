@@ -1,12 +1,12 @@
 {
   "author": "stevefan1999",
   "devDependencies": {
-    "@stevefan1999/tslint-config": "^0.1.0",
-    "@types/node": "^12.6.8",
-    "hygen": "^4.0.7",
+    "@stevefan1999/tslint-config": "workspace:^0.1.0",
+    "@types/node": "^12.12.12",
+    "hygen": "^5.0.3",
     "pkg-dir": "^4.2.0",
-    "tslint": "^5.18.0",
-    "typescript": "^3.5.3"
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.2"
   },
   "license": "ISC",
   "name": "@stevefan1999/misc_monorepo",
