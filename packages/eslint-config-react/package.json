@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.6.1"
+  },
+  "files": [
+    "dist"
+  ],
+  "index": "./src/index.ts",
+  "main": "./dist/index.js",
+  "name": "@stevefan1999/eslint-config-react",
+  "peerDependencies": {
+    "eslint": "*"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "0.0.2"
+}
