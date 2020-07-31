@@ -9,7 +9,7 @@ module.exports = {
       ],
       files: ['*.ts', '*.d.ts', '*.tsx'],
       parserOptions: {
-        ecmaVersion: 2018,
+        ecmaVersion: 11,
         parser: '@typescript-eslint/parser',
         sourceType: 'module'
       },
@@ -77,6 +77,48 @@ module.exports = {
                   ]
                 }
               ],
+              ['method-signature-style', 'method'],
+              [
+                'naming-convention',
+                [
+                  {
+                    selector: 'variable',
+                    format: ['camelCase', 'UPPER_CASE'],
+                    leadingUnderscore: 'allow',
+                    trailingUnderscore: 'allow',
+                  },
+                  {
+                    selector: 'typeLike',
+                    format: ['PascalCase'],
+                  },
+                  {
+                    selector: 'variable',
+                    types: ['boolean'],
+                    format: ['PascalCase'],
+                    prefix: ['is', 'should', 'has', 'can', 'did', 'will']
+                  },
+                  {
+                    selector: 'typeParameter',
+                    format: ['PascalCase'],
+                    prefix: ['T']
+                  },
+                  {
+                    selector: 'interface',
+                    format: ['PascalCase'],
+                    prefix: ['I']
+                  },
+                  {
+                    selector: 'memberLike',
+                    modifiers: ['private'],
+                    format: ['camelCase']
+                  },
+                  {
+                    selector: 'memberLike',
+                    modifiers: ['public'],
+                    format: ['PascalCase']
+                  }
+                ],
+              ],
               'no-floating-promises',
               'no-for-in-array',
               'no-unnecessary-qualifier',
@@ -110,8 +152,10 @@ module.exports = {
               'unified-signatures'
             ],
             off: [
+              'camelcase',
               'interface-name-prefix',
               'no-explicit-any',
+              'no-inferrable-types',
               'no-non-null-assertion',
               'no-unused-vars',
               'no-use-before-define',

@@ -33,14 +33,20 @@ module.exports = {
         ['node/exports-style', 'module.exports'],
         'sort-keys-fix/sort-keys-fix'
       ],
+      warn: [
+        'node/no-extraneous-import'
+      ],
       off: [
         'linebreak-style',
+        'no-debugger',
         'no-trailing-spaces',
         'no-unused-expressions',
         'no-unused-vars',
-        'semi',
+        'node/no-missing-import',
+        'node/no-unpublished-import',
         'node/no-unpublished-require',
-        'node/no-unsupported-features/es-syntax'
+        'node/no-unsupported-features/es-syntax',
+        'semi'
       ]
     })
   }

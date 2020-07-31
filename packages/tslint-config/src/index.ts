@@ -17,16 +17,7 @@ export const rules = {
     true,
     'check-else-if'
   ],
-  'prefer-method-signature': true,
   'prefer-switch': true,
   'return-undefined': true,
-  'strict-type-predicates': true,
-  'variable-name': [
-    true,
-    'ban-keywords',
-    'check-format',
-    'allow-leading-underscore',
-    'allow-pascal-case',
-    'allow-snake-case'
-  ]
+  'strict-type-predicates': true
 }

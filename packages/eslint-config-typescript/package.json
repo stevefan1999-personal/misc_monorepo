@@ -1,9 +1,9 @@
 {
   "dependencies": {
     "@stevefan1999/utils": "workspace:^0.0.3",
-    "@typescript-eslint/eslint-plugin": "^2.8.0",
-    "@typescript-eslint/eslint-plugin-tslint": "^2.8.0",
-    "@typescript-eslint/parser": "^2.8.0"
+    "@typescript-eslint/eslint-plugin": "^3.7.1",
+    "@typescript-eslint/eslint-plugin-tslint": "^3.7.1",
+    "@typescript-eslint/parser": "^3.7.1"
   },
   "files": [
     "dist"

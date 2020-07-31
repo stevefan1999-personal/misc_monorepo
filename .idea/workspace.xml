@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d863f8ab-3993-48c2-bcf1-8892a4d85631" name="Default Changelist" comment="add: typescript setup">
-      <change beforePath="$PROJECT_DIR$/.idea/eslintPlugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/eslintPlugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/eslint-config-nuxt/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-config-nuxt/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/eslint-config-react/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-config-react/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/eslint-config-typescript/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-config-typescript/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/eslint-config-typescript/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-config-typescript/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/eslint-config-vue/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-config-vue/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/eslint-config/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-config/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/eslint-config/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-config/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/eslint-config/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-config/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +83,17 @@
       <workItem from="1574495259894" duration="5066000" />
       <workItem from="1574502499223" duration="1144000" />
       <workItem from="1574503666246" duration="7804000" />
-      <workItem from="1574515331957" duration="244000" />
+      <workItem from="1574515331957" duration="1839000" />
+      <workItem from="1574517192143" duration="23000" />
+      <workItem from="1574517271040" duration="303000" />
+      <workItem from="1574517704625" duration="23000" />
+      <workItem from="1574518189054" duration="5911000" />
+      <workItem from="1574576385702" duration="736000" />
+      <workItem from="1574611262970" duration="598000" />
+      <workItem from="1574660682006" duration="7000" />
+      <workItem from="1574673441602" duration="9000" />
+      <workItem from="1574674216859" duration="58000" />
+      <workItem from="1574873647502" duration="93000" />
     </task>
     <task id="LOCAL-00001" summary="add: idea config">
       <created>1550916335092</created>
